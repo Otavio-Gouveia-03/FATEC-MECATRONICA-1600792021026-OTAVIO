@@ -1,0 +1,6 @@
+#Estrutura de repetição por sentinela
+resposta = 'sim'
+
+while resposta == 'sim':
+  resposta = input("Continuar?")
+  
