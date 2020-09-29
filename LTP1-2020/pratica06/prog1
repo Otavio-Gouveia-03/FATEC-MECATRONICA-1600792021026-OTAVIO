@@ -1,0 +1,16 @@
+#Estrutura de repetição
+numero_secreto = 42
+
+acertou = False
+
+while acertou == False:
+ chute = int(input("informe seu chute:"))
+ if chute > numero_secreto :
+   print('Errou por alto')
+ elif chute < numero_secreto :
+  print('Errou por baixo')
+ else:
+  acertou = True
+  print('Boa 06')
+
+print('obrigado por jogar')
